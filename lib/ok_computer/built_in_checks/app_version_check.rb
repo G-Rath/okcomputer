@@ -9,7 +9,7 @@ module OkComputer
     attr_accessor :env
     attr_accessor :transform
 
-    # Public: Initialize a check for a backed-up Sidekiq queue
+    # Public: Initialize a check for the application version
     #
     # file - The path of the version file to check
     # env - The key in ENV to check for a revision SHA
